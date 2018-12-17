@@ -1,0 +1,44 @@
+export default [{
+    title:'首页',
+    key:'/admin/home'
+},{
+    title:'UI',
+    key:'/admin/ui',
+    children:[{
+        title:'UI1',
+        key:'/admin/ui',
+    },{
+        title:'UI2',
+        key:'/admin/ui',
+    }]
+},{
+    title:'首页',
+    key:'/admin/home',
+    children:[{
+        title:'UI1',
+        key:'/admin/ui',
+    },{
+        title:'UI2',
+        key:'/admin/ui',
+    }]
+},{
+    title:'首页',
+    key:'/admin/home',
+    children:[{
+        title:'UI1',
+        key:'/admin/ui',
+    },{
+        title:'UI2',
+        key:'/admin/ui',
+    }]
+},{
+    title:'首页',
+    key:'/admin/home',
+    children:[{
+        title:'UI1',
+        key:'/admin/ui',
+    },{
+        title:'UI2',
+        key:'/admin/ui',
+    }]
+}]
