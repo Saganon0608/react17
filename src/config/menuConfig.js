@@ -6,39 +6,9 @@ export default [{
     key:'/admin/ui',
     children:[{
         title:'UI1',
-        key:'/admin/ui',
+        key:'/admin/ui1',
     },{
         title:'UI2',
-        key:'/admin/ui',
-    }]
-},{
-    title:'首页',
-    key:'/admin/home',
-    children:[{
-        title:'UI1',
-        key:'/admin/ui',
-    },{
-        title:'UI2',
-        key:'/admin/ui',
-    }]
-},{
-    title:'首页',
-    key:'/admin/home',
-    children:[{
-        title:'UI1',
-        key:'/admin/ui',
-    },{
-        title:'UI2',
-        key:'/admin/ui',
-    }]
-},{
-    title:'首页',
-    key:'/admin/home',
-    children:[{
-        title:'UI1',
-        key:'/admin/ui',
-    },{
-        title:'UI2',
-        key:'/admin/ui',
+        key:'/admin/ui2',
     }]
 }]

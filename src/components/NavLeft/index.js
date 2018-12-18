@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
-import MenuConfig from '../../config/menuConfig'
-import { Menu, Icon } from 'antd';
+import { Menu } from 'antd';
 import './index.less'
-import menuConfig from '../../config/menuConfig';
+import MenuConfig from '../../config/menuConfig';
 
 const SubMenu = Menu.SubMenu;
 
 export default class index extends Component {
   componentWillMount(){
-     const menuTreeNode = this.renderMenu(menuConfig)
+     const menuTreeNode = this.renderMenu(MenuConfig)
      this.setState({
        menuTreeNode
      })
@@ -30,7 +29,7 @@ export default class index extends Component {
 
   render() {
     return (
-      <div>
+      <div className="nav-left">
         <div className='logo'>
           <img src="/assets/logo-ant.svg" alt =""/>
           <h1>Imooc MS</h1>
