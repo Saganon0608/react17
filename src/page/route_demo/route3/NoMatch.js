@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
 
-class App extends Component {
+export default class NoMatch extends Component {
   render() {
     return (
       <div>
-        {this.props.children}
+        404
       </div>
-    );
+    )
   }
 }
-
-export default App;

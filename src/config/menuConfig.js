@@ -1,14 +1,14 @@
 export default [{
     title:'首页',
-    key:'/admin/home'
+    key:'/'
 },{
     title:'UI',
     key:'/admin/ui',
     children:[{
-        title:'UI1',
-        key:'/admin/ui1',
+        title:'button',
+        key:'/admin/ui/buttons',
     },{
         title:'UI2',
-        key:'/admin/ui2',
+        key:'/admin/ui/boabsdad',
     }]
 }]
