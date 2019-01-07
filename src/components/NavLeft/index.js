@@ -25,7 +25,7 @@ export default class index extends Component {
         )
       }
       return <Menu.Item key = {item.key}>
-        <NavLink to={item.key}>{item.title}{item.key}</NavLink>      
+        <NavLink to={item.key}>{item.title}</NavLink>      
       </Menu.Item>
     })
   }

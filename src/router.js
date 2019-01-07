@@ -24,7 +24,6 @@ export default class router extends Component {
                     </Admin>
                 }/>
                 <Route path="/order/detail" component={Login}/>
-                <Route component={NoMatch}/>
         </App>
       </Router>
     )
