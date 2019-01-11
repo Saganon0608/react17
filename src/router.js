@@ -4,8 +4,9 @@ import App from './App';
 import Login from './page/login';
 import Admin from './page/admin';
 import Home from './page/home'
-import Buttons from './page/ui/buttons'
 import NoMatch from './components/NoMatch'
+import Buttons from './page/ui/buttons'
+import Modals from './page/ui/modals'
 
 export default class router extends Component {
   render() {
@@ -19,6 +20,7 @@ export default class router extends Component {
                         <Switch>
                             <Route  exact path="/admin" component={Home} />
                             <Route path="/admin/ui/buttons" component={Buttons} />
+                            <Route path="/admin/ui/modals" component={Modals} />
                             <Route component={NoMatch}/>
                         </Switch>
                     </Admin>

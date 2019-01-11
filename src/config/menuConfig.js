@@ -5,10 +5,13 @@ export default [{
     title:'UI',
     key:'/admin/ui',
     children:[{
-        title:'button',
+        title:'按钮',
         key:'/admin/ui/buttons',
     },{
-        title:'UI2',
-        key:'/admin/ui/boabsdad',
+        title:'弹框',
+        key:'/admin/ui/modals',
+    },{
+        title:'Loading',
+        key:'/admin/ui/loading',
     }]
 }]
