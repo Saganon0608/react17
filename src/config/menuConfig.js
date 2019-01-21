@@ -14,4 +14,11 @@ export default [{
         title:'Loading',
         key:'/admin/ui/loading',
     }]
+},{
+    title:'表单',
+    key:'/admin/form',
+    children:[{
+        title:'登录',
+        key:'/admin/form/login'
+    }]
 }]

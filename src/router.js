@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import {HashRouter as Router,Route,Switch} from 'react-router-dom'
 import App from './App';
-import Login from './page/login';
 import Admin from './page/admin';
 import Home from './page/home'
 import NoMatch from './components/NoMatch'
 import Buttons from './page/ui/buttons'
 import Modals from './page/ui/modals'
+
+import Login from './page/form/login'
 
 export default class router extends Component {
   render() {
@@ -21,6 +22,8 @@ export default class router extends Component {
                             <Route  exact path="/admin" component={Home} />
                             <Route path="/admin/ui/buttons" component={Buttons} />
                             <Route path="/admin/ui/modals" component={Modals} />
+
+                            <Route path="/admin/form/login" component={Login} />
                             <Route component={NoMatch}/>
                         </Switch>
                     </Admin>
