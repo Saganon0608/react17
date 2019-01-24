@@ -24,4 +24,11 @@ export default [{
         title:'注册',
         key:'/admin/form/register'
     }]
+},{
+    title:'表格',
+    key:'/admin/table',
+    children:[{
+        title:'基础表格',
+        key:'/admin/table/basic'
+    }]
 }]

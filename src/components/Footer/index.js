@@ -5,7 +5,6 @@ export default class index extends Component {
   render() {
     return (
       <div className="footer">
-        尾
       </div>
     )
   }

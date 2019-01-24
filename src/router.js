@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
 import {HashRouter as Router,Route,Switch} from 'react-router-dom'
 import App from './App';
-import Admin from './page/admin';
-import Home from './page/home'
+import Admin from './pages/admin';
+import Home from './pages/home'
 import NoMatch from './components/NoMatch'
-import Buttons from './page/ui/buttons'
-import Modals from './page/ui/modals'
+import Buttons from './pages/ui/buttons'
+import Modals from './pages/ui/modals'
 
-import Login from './page/form/login'
-import Register from "./page/form/register";
+import Login from './pages/form/login'
+import Register from "./pages/form/register";
+
+import BasicTable from "./pages/table/basicTable";
 
 export default class router extends Component {
   render() {
@@ -26,6 +28,9 @@ export default class router extends Component {
 
                             <Route path="/admin/form/login" component={Login} />
                             <Route path="/admin/form/register" component={Register} />
+
+
+                            <Route path="/admin/table/basic" component={BasicTable} />
                             <Route component={NoMatch}/>
                         </Switch>
                     </Admin>
