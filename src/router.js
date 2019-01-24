@@ -8,6 +8,7 @@ import Buttons from './page/ui/buttons'
 import Modals from './page/ui/modals'
 
 import Login from './page/form/login'
+import Register from "./page/form/register";
 
 export default class router extends Component {
   render() {
@@ -24,11 +25,13 @@ export default class router extends Component {
                             <Route path="/admin/ui/modals" component={Modals} />
 
                             <Route path="/admin/form/login" component={Login} />
+                            <Route path="/admin/form/register" component={Register} />
                             <Route component={NoMatch}/>
                         </Switch>
                     </Admin>
                 }/>
                 <Route path="/order/detail" component={Login}/>
+                
         </App>
       </Router>
     )

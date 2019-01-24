@@ -20,5 +20,8 @@ export default [{
     children:[{
         title:'登录',
         key:'/admin/form/login'
+    },{
+        title:'注册',
+        key:'/admin/form/register'
     }]
 }]
